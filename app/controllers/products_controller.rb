@@ -5,8 +5,12 @@ class ProductsController < ApplicationController
   end
 
   def show
+    if current_user
+      @user = User.find(session[:user_id])
+    end
+    @user = User.find(session[:user_id])
     @product = Product.find params[:id]
-    @product_review = Rating.find_by :product_id == params[:id]
+    @product_review = @product.rating
+    @review = Rating.new
   end
-
 end
