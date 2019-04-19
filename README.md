@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 
 
-["screenshort of Review"](https://github.com/boksul/jungle-rails/blob/master/public/image/Screen%20Shot%202019-04-19%20at%204.23.29%20PM.png)
+!["screenshort of Review"](https://github.com/boksul/jungle-rails/blob/master/public/image/Screen%20Shot%202019-04-19%20at%204.23.29%20PM.png)
 !["screenshort of Empty Cart"](https://github.com/boksul/jungle-rails/blob/master/public/image/Screen%20Shot%202019-04-19%20at%204.23.46%20PM.png)
 
 
