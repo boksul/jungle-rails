@@ -18,7 +18,7 @@
     </br>
     <li> Your reciept will be mailed to: <%= current_user.email %></li>
     </br>
-    <li> Your Total Amount: <%= @total %></li>
+    <li> Your Total Amount: <%= humanized_money_with_symbol @total * 0.01%></li>
   </ul>
 
   <div class="order-summary jumbotron">
